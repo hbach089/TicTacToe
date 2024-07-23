@@ -13,3 +13,7 @@ between a light and a dark theme.
   <img width="460" height="300" src="https://github.com/user-attachments/assets/48b71695-240d-4830-91a2-ba56aa18e55e">  
 </p>
 
+## Setup and Installation
+- Install any code editor (preferably Visual Studio Code).
+- Download Live Server extension (latest version).
+- Run the application in the browser.
