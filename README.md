@@ -7,4 +7,7 @@ between a light and a dark theme.
 - Live Server: A minimalist web server extension in Visual Studio Code
 ## Screenshots
 
-![p1](https://github.com/user-attachments/assets/da416955-bf9d-4e2a-a6f9-e89750ad7c96)
+<p align="center">
+  <img width="460" height="300" src="![p1](https://github.com/user-attachments/assets/da416955-bf9d-4e2a-a6f9-e89750ad7c96)">
+</p>
+
