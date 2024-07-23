@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/styles.css" type="text/css">
+
+</head>
+<body>
+  <!--NAVBAR with webapp logo and marquee text-->
+  <nav>
+    <img src="images/logo.png" alt="GameWebsiteLogo" title="Main Menu" onclick="window.location='index.html'" style="float: left; width: 2cm; margin-top: -5px;cursor: pointer;">
+    <div class="example1">
+      <h3 style="margin-top: -10px;">Y9Games.com 1000+ FREE FLASH GAMES </h3>
+    </div>
+  </nav>
+
+<!--TICTACTOE table-->
+<div class="fulltablediv">
+<table id="tictactoe">
+<tr>
+  <td class="tleft tup" class="dark">
+    <input type="button" id="b1" value="" class="btns">
+  </td>
+  <td class="tup">
+    <input type="button" id="b2" value="" class="btns">
+  </td>
+  <td class="tup tright">
+    <input type="button" id="b3" value="" class="btns">
+  </td> 
+</tr>
+<tr>
+  <td class="tleft">
+    <input type="button" id="b4" value="" class="btns">
+  </td>
+  <td>
+    <input type="button" id="b5" value="" class="btns">
+  </td>
+  <td class="tright">
+  <input type="button" id="b6" value="" class="btns"> 
+</td>
+</tr>
+<tr>
+  <td class="tleft tbottom">
+    <input  type="button" id="b7" value="" class="btns">
+  </td>
+  <td class="tbottom">
+    <input type="button" id="b8" value="" class="btns">
+  </td>
+  <td class="tbottom tright">
+    <input type="button" id="b9" value="" class="btns"> 
+  </td>    
+</tr>
+</table>
+</div>  
+
+<!--Game end message-->
+<div id="GameEndBoxID" class="GameEndBox">
+  <span>
+    <h2 id="playerWin"></h2>
+  </span>
+  <button id="reset">Play Again</button>
+</div>
+
+<!--Display which player's turn it is-->
+<h2 id="whoTurn">X turn</h2>
+
+<script src="scripts/vComputer.js" type="module"></script>
+</body>
+</html>
