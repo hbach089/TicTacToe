@@ -6,7 +6,7 @@ between a light and a dark theme.
 - Javascript/HTML/CSS to program the application
 - Live Server: A minimalist web server extension in Visual Studio Code
 ## Screenshots
-<p allign='center'>
+<p align='center'>
   <img width="460" height="300" src="https://github.com/user-attachments/assets/da416955-bf9d-4e2a-a6f9-e89750ad7c96">  
 </p>
 
