@@ -23,10 +23,7 @@ if(theme){
 }
 
 //Call function to set colors of X and O based on bgColor
-setColors(bgColor);
-
-
-function setColors(bgColor){
+(function setColors(){
   if(bgColor=='dark'){
     xcolor='yellow';
     ocolor='orange';
@@ -35,7 +32,7 @@ function setColors(bgColor){
     xcolor='blue';
     ocolor='red';
   }
-}
+})(bgColor);
 
 //Sleep for specified time for Computer choice
 function sleep (time) {
