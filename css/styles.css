@@ -30,15 +30,14 @@ button{
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: var(--dropdownBorder)!important; /*#d10ef4;*/
+  background-color: var(--dropdownBorder)!important;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 .dropdown-content a {
-  /*color: black;*/
-  border-color: var(--dropdownBorder);/* #d10ef4;*/
-  background-color:var(--dropdownBorder)!important; /* #d10ef4; /* Green */
+  border-color: var(--dropdownBorder);
+  background-color:var(--dropdownBorder)!important; 
   color: var(--dropdownDark);
   padding: 12px 16px;
   text-decoration: none;
@@ -74,18 +73,16 @@ button{
   height: 120px;
   width: 120px;
   font-family:cursive;
-  background-color: var(--bg) /*white*/;
+  background-color: var(--bg) ;
   font-size: 100px;
   border: none;
   cursor: default!important;
-  /*color: blue !important;*/
 }
 .alert {
   padding: 20px;
   background-color: #f44336;
   color: white;
   opacity: 1;
-  /*transition: 0.6s;*/
   margin-bottom: 15px;
 }
 
@@ -98,25 +95,13 @@ button{
 .bouttonrestart{
   margin-left: 5cm;
 }
-/*
-#reset{
-  /*width: auto; 
-  height: auto;
-  display: inline-block;
-  font-size: 12px;
-  cursor: pointer;
-  display: none;
-  border-radius: 9px;
-  color: var(--tableborder);
-  background-color: red;
-}
-*/
+
 .GameEndBox{
   display: none;
   background-color: var(--gamendbox);
   margin: auto;
   width: 25%;
-  border: 3px solid var(--border-color); /*#d10ef4;*/
+  border: 3px solid var(--border-color); 
   padding: 10px;
   margin: 20px;
   text-align: center;
@@ -159,7 +144,7 @@ table {
 #firstpageOptions{
   margin: auto;
   width: 30%;
-  border: 3px solid var(--border-color); /*#d10ef4;*/
+  border: 3px solid var(--border-color); 
   padding: 10px;
   margin: 20px;
   text-align: center;
@@ -170,7 +155,7 @@ table {
 }
 
 #reset{
-  background-color: var(--boxesBackGround); /*#d10ef4;*/ 
+  background-color: var(--boxesBackGround); 
   border: none;
   width: auto;
   color: var(--dropdownDark);
@@ -179,20 +164,20 @@ table {
   text-decoration: none;
   font-size: 16px;
   transition-duration: 0.4s;
-  border: 2px solid var(--border-color) /*2px solid #d10ef4*/; 
+  border: 2px solid var(--border-color); 
   cursor: pointer;
   display: none;
   font-family:cursive;
 }
 #reset:hover{
-  border-color: var(--border-color)/*#d10ef4*/;
-  background-color: white; /* Green */
-  color: var(--fpText) /*#d10ef4*/;
+  border-color: var(--border-color);
+  background-color: white;
+  color: var(--fpText);
 }
 
 .fpbtn{
   font-family: Lucida Console;
-  background-color: var(--boxesBackGround)!important; /*#d10ef4;*/ 
+  background-color: var(--boxesBackGround)!important;  
   border: none;
   color: white;
   border-radius: 4px; 
@@ -204,13 +189,13 @@ table {
   display: inline-block;
   font-size: 16px;
   transition-duration: 0.4s;
-  border: 2px solid var(--border-color) /*2px solid #d10ef4*/; 
+  border: 2px solid var(--border-color); 
   cursor: pointer;
 }
 .fpbtn:hover {
-  border-color: var(--border-color)/*#d10ef4*/;
-  background-color: white!important; /* Green */
-  color: var(--fpText) /*#d10ef4*/;
+  border-color: var(--border-color);
+  background-color: white!important; 
+  color: var(--fpText);
 }
 
 
@@ -233,9 +218,9 @@ body,html{
 body{
   margin:0;
   padding:0;
-  background:var(--bg)!important; /*rgb(177, 251, 251);*/
+  background:var(--bg)!important; 
   font-size: 18px;
-  font-family: Courier New; /*"Vibur", sans-serif;*/
+  font-family: Courier New; 
   transition: 500ms ease-in-out;
 }
 
@@ -254,7 +239,7 @@ body{
   bottom:-100px;
   width:40px;
   height: 40px;
-  background:#d5d0d0; /*#f1f1f1*/
+  background:#d5d0d0; 
   border-radius:50%;
   opacity:0.5;
   animation: rise 10s infinite ease-in;
