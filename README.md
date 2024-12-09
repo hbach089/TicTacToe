@@ -1,5 +1,5 @@
 # TicTacToe documentation
-A basic web application in Javascript, HTML and CSS where the user has the choice to play against another player or against a computer. The user also has the choice to chose 
+A basic web application in Javascript, HTML and CSS where the user has the choice 1vs1 or 1vsComputer (AI). The user also has the choice to chose 
 between a light and a dark theme.
 
 ## Technologies used
